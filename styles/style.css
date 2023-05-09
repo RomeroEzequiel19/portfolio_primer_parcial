@@ -32,7 +32,7 @@
 .main-secciones-info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 0px;
 }
 
@@ -64,6 +64,18 @@
     padding: 1%;
     background-color: #3a68ad;
     border-radius: 10px;
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.boton:hover{
+    background: linear-gradient(90deg, #3a68ad, #fff); 
 }
 
 @media screen and (max-width: 1024px){
