@@ -17,17 +17,23 @@ body{
     border-end-start-radius: 20%;
     border-end-end-radius: 20%;
 }
-img{
-    width: 80%;
-}
 span{
     color: red;
 }
-
+.row img{
+    width: 80%;
+}
 .estudios-exp{
     border: 2px solid rgb(0, 0, 255);
     border-radius: 10px;
     color: white;
     padding: 30px;
 
+}
+
+@media screen and (max-width: 991px) {
+    .row img{
+        width: 30%;
+        padding-bottom: 30px;
+    }
 }
