@@ -7,7 +7,7 @@ body{
     background-color: rgb(0, 0, 44);
 }
 .contenedor{
-    background: url("../images/fondo-index.svg");
+    background: url("../images/fondo.svg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 20px 100px 20px;

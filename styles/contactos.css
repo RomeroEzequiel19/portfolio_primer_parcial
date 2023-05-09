@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .contenedor{
-    background: url("../images/fondo-index.svg");
+    background: url("../images/fondo.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -15,9 +15,7 @@ h1{
     color: #fff;
     margin: 30px;
 }
-.contenedor{
-    height: 100vh;
-}
+
 .contenedor-main{
     display: flex;
     height: 100%;
