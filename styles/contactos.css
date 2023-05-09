@@ -26,15 +26,17 @@ h1{
     align-items: center;
 }
 .contenedor-main img{
-    width: 60%;
+    width: 80%;
 }
 .contenedor-main .formulario{
     flex-basis: 50%;
     margin: 20px;
+    width: 85%;
 }
 .contenedor-main-info{
     flex-basis: 50%;
     margin: 20px;
+    width: 85%;
 }
 .informacion{
     border-left: 2px solid #ff0000;
