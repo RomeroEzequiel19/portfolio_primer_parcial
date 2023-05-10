@@ -19,15 +19,15 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header>
       <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
         <div class="container-fluid">
-          <a class="navbar-brand col-lg-7 text-light" href="./index.html"
-            >Desarrollador Web</a
-          >
-
+          <a class="navbar-brand col-lg-6 text-light" href="./index.html">
+            Desarrollador Web
+          </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarsExample09"
@@ -35,13 +35,15 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+            <!-- Icono Hamburguesa -->
             <span class="navbar-toggler-icon"></span>
           </button>
 
+          <!-- Barra de Navegación -->
           <div class="collapse navbar-collapse" id="navbarsExample09">
             <ul class="navbar-nav me-auto align-items-center">
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="index.html">Inicio</a>
+                <a class="nav-link text-light" href="index.html"> Inicio </a>
               </li>
               <li class="nav-item me-2">
                 <a
@@ -51,19 +53,19 @@
                 >
               </li>
               <li class="nav-item me-2">
-                <a
-                  class="nav-link text-light "
-                  href="habilidades.html">Habilidades</a>
+                <a class="nav-link text-light" href="habilidades.html">
+                  Habilidades
+                </a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="proyectos.html"
-                  >Proyectos</a
-                >
+                <a class="nav-link text-light" href="proyectos.html">
+                  Proyectos
+                </a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="contactos.html"
-                  >Contactos</a
-                >
+                <a class="nav-link text-light" href="contactos.html">
+                  Contactos
+                </a>
               </li>
             </ul>
           </div>
@@ -72,29 +74,40 @@
     </header>
 
     <main>
+      <!-- Seccion principal con descripcion e imagen -->
       <section class="contenedor">
         <div class="row">
-          <section class="col-lg-5">
-            <img src="./images/myAvatar.jpg" alt="avatar" />
+          <section
+            class="col-lg-5 d-flex align-items-center justify-content-center"
+          >
+            <img src="./images/myAvatar.png" alt="avatar" />
           </section>
 
-          <section class="col-lg-7 text-light">
+          <section class="col-lg-6 text-light">
             <h1>Sobre <span>Mí</span></h1>
             <h3>Desarrollador <span>Web</span></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis ullam animi repellendus fuga asperiores modi minus
-              necessitatibus distinctio eveniet exercitationem. Rerum,
-              laudantium tempore libero eaque cumque ipsa! Doloremque delectus
-              fugiat ullam nihil ab at. Modi nisi necessitatibus officiis iusto
-              praesentium culpa eos eaque ipsa suscipit. Quos, at illum nemo
-              doloribus, mollitia ducimus et excepturi, repellat totam eum nisi
-              est iusto voluptate. Mollitia, blanditiis porro aperiam, accusamus
-              reprehenderit vitae ratione autem reiciendis fuga nostrum quos
-              sint quaerat. Rerum iusto totam optio cum odio repudiandae
-              doloribus iste quod commodi! Provident magni, nobis deserunt
-              labore fugit doloribus, autem explicabo, error sapiente neque
-              distinctio.
+              Hola, soy un desarrollador de software apasionado por la
+              tecnología y el desarrollo de soluciones innovadoras. Tengo amplia
+              experiencia en programación con lenguajes como Java y Python, así
+              como en el diseño y optimización de bases de datos. Me gusta
+              mantenerme actualizado sobre las últimas tendencias en tecnología
+              para estar siempre al día en mi campo. <br />
+
+              Mi enfoque principal es entender las necesidades del usuario final
+              y diseñar sistemas intuitivos y eficientes que los satisfagan.
+              Disfruto trabajando en equipo y aprendiendo de los demás, ya que
+              creo que esto lleva a mejores resultados. Además, me siento cómodo
+              resolviendo problemas técnicos y complejos, lo que me ha ayudado a
+              ser un buen profesional en mi trabajo.
+              <br />
+
+              En general, considero que el éxito en el desarrollo de software se
+              basa en una combinación de habilidades técnicas y sociales, junto
+              con una ética y actitud responsables hacia su trabajo. Estoy
+              comprometido con ofrecer soluciones de alta calidad y estoy seguro
+              de que puedo brindar valor añadido en cualquier proyecto en el que
+              participe.
             </p>
 
             <div class="row">
@@ -102,80 +115,105 @@
                 <p>Me gusta adquirir nuevos conocimientos continuamente.</p>
               </div>
               <div class="col-6">
-                <p>Me gusta trabajar en equipo, aunque a veces complicado hacerlo.</p>
+                <p>Me gusta trabajar en equipo.</p>
               </div>
             </div>
           </section>
         </div>
       </section>
 
-      <br />
+      <!-- Segunda sección donde aparece la educación y las experiencias -->
+      <article class="container-fluid">
+        <section class="justify-items-center my-5">
+          <!-- EDUCACION -->
+          <h3 class="col-12 text-center my-5 py-3 text-light">Educación</h3>
+          <section>
+            <div class="row row-cols-2 gap-3 justify-content-center">
+              <div class="col-sm-7 col-lg-5 estudios-exp">
+                <p>Año: <span>2015 - 2022</span></p>
+                <h5>E.P.E.T N°7</h5>
+                <p>
+                  Me gradué del colegio Secundario "Escuela Provincial de
+                  Educación Técnica N°7 'Vicente Arcadio Salemi'" con el título
+                  de Técnico en Programación, en el cual aprendí a realizar
+                  aplicaciónes web, Aplicaciones Móviles, sistemas de Ventas y
+                  Sistemas de Stock.
+                </p>
+              </div>
+              <div class="col-sm-7 col-lg-5 estudios-exp">
+                <p>Año: <span>2023 - 2024</span></p>
+                <h5>IPF</h5>
+                <p>
+                  Actualmente, ando cursando la Tecnicatura Superior de
+                  Desarrollo de Software Multiplataforma en el Instituto
+                  Politécnico Formosa. Aprendí la estructura de un documento
+                  HTML, como aplicar estilos en css con flexbox y grid, así como
+                  también la utilización de bootstrap.
+                </p>
+              </div>
+            </div>
+          </section>
 
-      <section class="justify-items-center my-5">
-        <h3 class="col-12 text-center my-5 py-3 text-light">Educación</h3>
-        <div class="container">
-          <div class="row row-cols-2 gap-3 justify-content-center">
-            <div class="col-8 estudios-exp">
-              <p>Año: <span>2015 - 2022</span></p>
-              <h5>E.P.E.T N°7</h5>
-              <p>
-                Me gradué del colegio Secundario "Escuela Provincial de
-                Educación Técnica N°7 'Vicente Arcadio Salemi'" con el título de
-                Técnico en Programación, en el cual aprendí a realizar
-                aplicaciónes web, Aplicaciones Móviles, sistemas de Ventas y
-                Sistemas de Stock.
-              </p>
+          <!-- EXPERIENCIAS -->
+          <h3 class="col-12 text-center my-5 py-3 text-light">Experiencias</h3>
+          <section>
+            <div class="row row-cols-2 gap-3 justify-content-center">
+              <div class="col-sm-7 col-lg-5 estudios-exp">
+                <p>Año: <span>2022 - Abril a Junio</span></p>
+                <h5>OSDE - Sistema de Gestión</h5>
+                <p>
+                  Realicé pasantías externas en la empresa de Obra Social OSDE,
+                  donde tuve que desarrollar un sistema de gestión de Recursos
+                  con dos compañeros de trabajo. Dicho sistema tenía la
+                  posibilidad de adaptarse a distintos dispositivos.
+                </p>
+                <p>
+                  Durante mi estadía aprendí la manera en la que se trabaja en
+                  un ambiente laboral, y además fortalecí mi trabajo en grupo.
+                </p>
+              </div>
+              <div class="col-sm-7 col-lg-5 estudios-exp">
+                <p>Año: <span>2022 - Agosto a Noviembre</span></p>
+                <h5>Sistema de Alumnado - Módulo de Inscripciones</h5>
+                <p>
+                  Fui el encargado de realizar el módulo de inscripciones del
+                  sistema de alumnado del colegio E.P.E.T N°7. Tuve que realizar
+                  un entrevista a los encargados de realizar las inscripciones y
+                  una vez obtuvidos los datos comencé a trabajar.
+                </p>
+                <p>
+                  Para este sistema, usé los lenguajes de Programación: PHP Y
+                  Javascript.
+                </p>
+              </div>
             </div>
-            <div class="col-8 estudios-exp">
-              <p>Año: <span>2023 - 2024</span></p>
-              <h5>IPF</h5>
-              <p>
-                Actualmente, ando cursando la Tecnicatura Superior de Desarrollo
-                de Software Multiplataforma en el Instituto Politécnico Formosa.
-                Aprendí la estructura de un documento HTML, como aplicar estilos
-                en css con flexbox y grid, así como también la utilización de
-                bootstrap.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <h3 class="col-12 text-center my-5 py-3 text-light">Experiencias</h3>
-
-        <div class="container">
-          <div class="row row-cols-2 gap-3 justify-content-center">
-            <div class="col-8 estudios-exp">
-              <p>Año: <span>2022 - Abril a Junio</span></p>
-              <h5>OSDE - Sistema de Gestión</h5>
-              <p>Realicé pasantías externas en la empresa de Obra Social OSDE, donde tuve que desarrollar un sistema de gestión de Recursos con dos compañeros de trabajo. Dicho sistema tenía la posibilidad de adaptarse a distintos dispositivos.</p>
-              <p>Durante mi estadía aprendí la manera en la que se trabaja en un ambiente laboral, y además fortalecí mi trabajo en grupo.</p>
-            </div>
-            <div class="col-8 estudios-exp">
-              <p>Año: <span>2022 - Agosto a Noviembre</span></p>
-              <h5>Sistema de Alumnado - Módulo de Inscripciones</h5>
-              <p>Fui el encargado de realizar el módulo de inscripciones del sistema de alumnado del colegio E.P.E.T N°7. Tuve que realizar un entrevista a los encargados de realizar las inscripciones y una vez obtuvidos los datos comencé a trabajar.</p>
-              <p>Para este sistema, usé los lenguajes de Programación: PHP Y Javascript.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
+        </section>
+      </article>
     </main>
 
     <footer class="py-3 bg-dark">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light">Inicio</a>
+          <a href="index.html" class="nav-link px-2 text-light">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light">Acerca De</a>
+          <a href="/about.html" class="nav-link px-2 text-light">Acerca De</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light">Proyectos</a>
+          <a href="/habilidades.html" class="nav-link px-2 text-light">
+            Habilidades
+          </a>
         </li>
         <li class="nav-item">
-          <a href="./contactos.html" class="nav-link px-2 text-light"
-            >Contactos</a
-          >
+          <a href="./proyectos.html" class="nav-link px-2 text-light">
+            Proyectos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./contactos.html" class="nav-link px-2 text-light">
+            Contactos
+          </a>
         </li>
       </ul>
       <p class="text-center text-light">

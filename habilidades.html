@@ -19,15 +19,15 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header>
       <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
         <div class="container-fluid">
-          <a class="navbar-brand col-lg-6 text-light" href="./index.html"
-            >Desarrollador Web
+          <a class="navbar-brand col-lg-6 text-light" href="./index.html">
+            Desarrollador Web
           </a>
-
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarsExample09"
@@ -35,13 +35,15 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+            <!-- Icono Hamburguesa -->
             <span class="navbar-toggler-icon"></span>
           </button>
 
+          <!-- Barra de Navegación -->
           <div class="collapse navbar-collapse" id="navbarsExample09">
             <ul class="navbar-nav me-auto align-items-center">
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="index.html">Inicio</a>
+                <a class="nav-link text-light" href="index.html"> Inicio </a>
               </li>
               <li class="nav-item me-2">
                 <a class="nav-link text-light" href="about.html">Acerca de</a>
@@ -50,18 +52,19 @@
                 <a
                   class="nav-link text-light border-bottom border-top border-primary rounded"
                   href="habilidades.html"
-                  >Habilidades
+                >
+                  Habilidades
                 </a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="proyectos.html"
-                  >Proyectos
+                <a class="nav-link text-light" href="proyectos.html">
+                  Proyectos
                 </a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link text-light" href="contactos.html"
-                  >Contactos
-                  </a>
+                <a class="nav-link text-light" href="contactos.html">
+                  Contactos
+                </a>
               </li>
             </ul>
           </div>
@@ -69,18 +72,21 @@
       </nav>
     </header>
 
-    <main class="contenedor">
+    <main class="contenedor px-5">
+      <!-- Titulo Inicial -->
       <article class="text-center">
-        <h1 class="text-light px-3">Habilidades</h1>
-        <p class="text-light px-3">
+        <h1 class="text-light pt-5 px-3">Habilidades</h1>
+        <p class="text-light px-3 py-5">
           Estas son las tecnologías que puedo manejar a la perfección. Además,
           de que me gusta poder aprender más sobre ellas.
         </p>
       </article>
 
-      <section class="container text-center justify-content-center">
-        <div class="row gap-5 contenido text-center">
-          <div class="col-5 col-sm-7 col-lg-5 rounded contenido px-4 py-4">
+      
+      <section class="container pb-5">
+        <div class="row gap-5 d-flex justify-content-center">
+          <!-- Contenedor de los Lenguajes de Programacion -->
+          <div class="col-sm-10 col-lg-5 rounded text-center px-4 py-4">
             <h4>Lenguajes de Programación</h4>
             <div class="d-flex justify-content-around my-2 px-2 border rounded">
               <p>Javascript</p>
@@ -99,9 +105,8 @@
               <img src="./images/habilidades/cshap.png" alt="c#" />
             </div>
           </div>
-          <div
-            class="col-5 col-xs-7 col-sm-7 col-lg-5 rounded contenido px-4 py-4"
-          >
+          <!-- Contenedor de los Gestores de Bases de Datos -->
+          <div class="col-sm-10 col-lg-5 rounded text-center px-4 py-4">
             <h4>Gestor de Bases de Datos</h4>
             <div class="d-flex justify-content-around mb-2 px-2 border rounded">
               <p>MySQL</p>
@@ -120,9 +125,8 @@
               <img src="./images/habilidades/postgresql.png" alt="PostgreSql" />
             </div>
           </div>
-          <div
-            class="col-5 col-xs-7 col-sm-7 col-lg-5 rounded contenido px-4 py-4"
-          >
+          <!-- Contenedor de los Frameworks -->
+          <div class="col-sm-10 col-lg-5 rounded text-center px-4 py-4">
             <h4>Frameworks</h4>
             <div class="d-flex justify-content-around mb-2 px-2 border rounded">
               <p>Laravel</p>
@@ -141,9 +145,8 @@
               <img src="./images/habilidades/spring.png" alt="spring-logo" />
             </div>
           </div>
-          <div
-            class="col-5 col-xs-7 col-sm-7 col-lg-5 rounded contenido px-4 py-4"
-          >
+          <!-- Contenedor de los otras tecnologías -->
+          <div class="col-sm-10 col-lg-5 rounded text-center px-4 py-4">
             <h4>Otras Tecnologías</h4>
             <div class="d-flex justify-content-around mb-2 px-2 border rounded">
               <p>HTML</p>
@@ -172,19 +175,22 @@
           <a href="index.html" class="nav-link px-2 text-light">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="./about.html" class="nav-link px-2 text-light">Acerca De</a>
+          <a href="/about.html" class="nav-link px-2 text-light">Acerca De</a>
         </li>
         <li class="nav-item">
-          <a href="./habilidades.html" class="nav-link px-2 text-light">Habilidades</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./proyectos.html" class="nav-link px-2 text-light">Proyectos</a>
+          <a href="/habilidades.html" class="nav-link px-2 text-light">
+            Habilidades
+          </a>
         </li>
         <li class="nav-item">
-          <a href="./contactos.html" class="nav-link px-2 text-light"
-            >Contactatos</a
-          >
+          <a href="./proyectos.html" class="nav-link px-2 text-light">
+            Proyectos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./contactos.html" class="nav-link px-2 text-light">
+            Contactos
+          </a>
         </li>
       </ul>
       <p class="text-center text-light">

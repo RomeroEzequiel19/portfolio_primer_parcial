@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
+/* Contenedor para colocar el fondo */
+
 .contenedor{
     background: url("../images/fondo.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+/* Contenedor para aplicar flex css a las secciones */
+
 .contenedor-main-secciones{
-    /* background: linear-gradient(90deg, rgb(0, 0, 20), rgb(0, 0, 94)); */
     width: 100%;
     height: 100vh;
     padding: 2%;
@@ -21,14 +24,7 @@
     align-items: center; 
 }
 
-.main-secciones-img{
-    text-align: center;
-}
-
-.main-secciones-img img{
-    width: 100%;
-}
-
+/* Estilos propios al contenido */
 .main-secciones-info{
     display: flex;
     flex-direction: column;
@@ -43,17 +39,31 @@
 
 .main-secciones-info .nombre{
     color: white;
-    font-size: 45px;
     font-weight: bold;
     margin-bottom: 0px;
+    text-align: center;
 }
 .main-secciones-info .profesion{
     color: white;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0px;
+    text-align: center;
 }
 
+
+/* Estilos de la imgen */
+
+.main-secciones-img{
+    text-align: center;
+}
+
+.main-secciones-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos de los Botones de las redes */
 .main-redes {
     display: flex;
     margin: 10px;
@@ -67,6 +77,8 @@
     text-align: center;
 }
 
+/* Clases del boton "Mas Sobre Mi" */
+
 .boton{
     text-align: center;
     width: 100%;
@@ -78,8 +90,9 @@
     background: linear-gradient(90deg, #3a68ad, #fff); 
 }
 
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1053px){
     .main-secciones-img img{
-        width: 70%;
+        width: 80%;
     }
 }
