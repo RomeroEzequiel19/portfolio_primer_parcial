@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: rgb(5, 7, 37);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#proyectos img{
+  width: 100%;
+  height: 30%;
+}
+
+#proyectos{
+  display: grid;
+  width: 80%;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 20px;
+  margin: 40px;
+  justify-content: center;
+    
+}
+
+#proyectos img{
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+}
+  
+#proyectos .tile{
+  border-radius: 10px;
+  box-sizing: border-box;
+  background:  linear-gradient(120deg,rgb(0, 0, 65), rgb(0, 37, 117));
+}
+  
+@media screen and (max-width: 1024px){
+  #proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+  
+@media screen and (max-width: 700px){
+  #proyectos{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+  
