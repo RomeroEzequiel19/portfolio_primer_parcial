@@ -1,6 +1,6 @@
 # PRIMER EXAMEN PARCIAL - PORTFOLIO
 
-En este repositorio podrá encontrar el portfolio del alumno Romero Ezequiel el cual se encuntra divido en cinto apartados que son los siguientes:
+En este repositorio podrá encontrar el portfolio del alumno Romero Ezequiel el cual se encuentra divido en cinco apartados que son los siguientes:
 
 - **Inicio:** En este apartado se puede observar una introducción sobre mi nombre y sobre mi profesión o a que me dedico, junto a mis redes sociales.
 - **Acerca de:** En este apartado se encuentra breve descripción mía, estudios y experiencias laborales.
